@@ -18,6 +18,7 @@
 		003E8A862ABC97D300B0FFFD /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E8A852ABC97D300B0FFFD /* LocationsViewModel.swift */; };
 		00B8EDC02AE42154007A21A7 /* LocationMapAnnotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8EDBF2AE42154007A21A7 /* LocationMapAnnotionView.swift */; };
 		00B8EDC22AE42812007A21A7 /* LocationViewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8EDC12AE42812007A21A7 /* LocationViewDetail.swift */; };
+		00F351212C8875EC00E753C2 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 00F351202C8875EC00E753C2 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		003E8A852ABC97D300B0FFFD /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		00B8EDBF2AE42154007A21A7 /* LocationMapAnnotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotionView.swift; sourceTree = "<group>"; };
 		00B8EDC12AE42812007A21A7 /* LocationViewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewDetail.swift; sourceTree = "<group>"; };
+		00F351202C8875EC00E753C2 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 		003E8A5F2ABC8B3800B0FFFD = {
 			isa = PBXGroup;
 			children = (
+				00F351202C8875EC00E753C2 /* Localizable.xcstrings */,
 				003E8A6A2ABC8B3800B0FFFD /* SwiftfulMapApp */,
 				003E8A692ABC8B3800B0FFFD /* Products */,
 			);
@@ -162,6 +165,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 003E8A5F2ABC8B3800B0FFFD;
 			productRefGroup = 003E8A692ABC8B3800B0FFFD /* Products */;
@@ -180,6 +184,7 @@
 			files = (
 				003E8A7A2ABC8C4600B0FFFD /* Assets.xcassets in Resources */,
 				003E8A732ABC8B3900B0FFFD /* Preview Assets.xcassets in Resources */,
+				00F351212C8875EC00E753C2 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
